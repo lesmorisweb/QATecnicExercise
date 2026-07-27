@@ -107,16 +107,16 @@ npx playwright test
 # Test Report
 
 ## Authentication Login
-![alt text](/screenshots/image.png)
+![alt text](./screenshots/image.png)
 
 ## Checkout
-![alt text](/screenshots/image-1.png)
+![alt text](./screenshots/image-1.png)
 
 ## Inventory
-![alt text](/screenshots/image-2.png)
+![alt text](./screenshots/image-2.png)
 
 ## ShoppingCar
-![alt text](/screenshots/image-3.png)
+![alt text](./screenshots/image-3.png)
 
 ---
 
