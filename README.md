@@ -1,142 +1,110 @@
-# QA Automation Challenge - Exercise 2
+# QA Tecnic Exercise Repository
 
-## Overview
+This repository contains the two QA exercise solutions:
 
-This repository contains the solution for **Exercise 2** of the QA Automation Challenge.
+- `excercise1`
+- `excercise2`
 
-The objective of this exercise is to validate the functionality of the SauceDemo application by applying both manual and automated testing techniques.
+## Structure
 
-The project includes:
+- `excercise1/`
+  - Exercise 1 solution
+  - Test cases, reports, and automation related to the first challenge
 
-- QA Planning
-- Exploratory Testing
-- Functional Test Cases
-- Test Execution
-- Bug Reporting
-- Test Automation using Playwright
+- `excercise2/`
+  - Exercise 2 solution
+  - Playwright automation for the SauceDemo application
+  - QA planning, bug reporting, and test evidence
 
----
+## Exercise 1
 
-# Application Under Test
+Exercise 1 includes:
+- QA planning and exploratory testing
+- Functional test cases
+- Bug reporting and evidence
+- Automation artifacts
 
-**Website**
+> See `excercise1/README.md` for full details.
 
-https://www.saucedemo.com/
+## Exercise 2
 
----
+Exercise 2 focuses on:
+- Testing the SauceDemo web application
+- Authentication, inventory, cart, and checkout flows
+- Playwright TypeScript automation using Page Object Model
+- Test evidence and results
 
-# Deliverables
+> See `excercise2/README.md` for full details.
 
-The repository includes:
+## How to run tests
 
-- QA Planning
-- Exploratory Testing
-- Functional Test Cases
-- Test Execution
-- Playwright Automation
-- Test Evidence (Screenshots)
-
-Bug management was performed using Trello.
-
----
-
-# Bug Tracking
-
-All identified defects have been documented in a Trello board including:
-
-- Bug Summary
-- Description
-- Steps to Reproduce
-- Expected Result
-- Actual Result
-- Severity
-- Priority
-- Evidence
-
-**Trello Board**
-
-> https://trello.com/invite/b/6a6566e3104cd8f9aec875f8/ATTIf28b2cfc6b2762a3f752590b7ca8b4016673573E/saucedemo-bug-exercise-2
-
----
-
-# Tested Modules
-
-The following modules were tested:
-
-- Authentication Login
-- Inventory
-- Shopping Cart
-- Checkout
-- Generate PDF Order
-
----
-
-# Automation Framework
-
-The automation framework was developed using:
-
-- Playwright
-- TypeScript
-- Page Object Model (POM)
-
-The project follows the Page Object Model pattern by separating:
-
-- **Fixtures:** Test data and expected messages.
-- **Page Objects:** UI interactions.
-- **Spec Files:** Test flow and assertions.
-
-This structure improves readability, scalability and maintainability.
-
----
-
-# Running the Tests
-
-Install dependencies:
+From the root repository, navigate into the exercise folder and install dependencies:
 
 ```bash
+cd excercise2
 npm install
-```
-
-Run all tests:
-
-```bash
 npx playwright test
 ```
----
 
-# Test Report
+If `excercise1` also contains automated tests, follow the same pattern inside `excercise1`.
 
-## Authentication Login
-![alt text](image.png)
+## Notes
 
-## Checkout
-![alt text](image-1.png)
+- This repository is intended to showcase both manual QA and automation efforts.
+- Each exercise folder contains its own README and implementation details.
 
-## Inventory
-![alt text](image-2.png)
+```// filepath: c:\Users\crisy\OneDrive\Desktop\Excercise\README.md
+# QA Tecnic Exercise Repository
 
-## ShoppingCar
-![alt text](image-3.png)
+This repository contains the two QA exercise solutions:
 
----
+- `excercise1`
+- `excercise2`
 
-# References
+## Structure
 
-## Application Under Test
+- `excercise1/`
+  - Exercise 1 solution
+  - Test cases, reports, and automation related to the first challenge
 
-https://www.saucedemo.com/
+- `excercise2/`
+  - Exercise 2 solution
+  - Playwright automation for the SauceDemo application
+  - QA planning, bug reporting, and test evidence
 
-## Bug Tracking
+## Exercise 1
 
-https://trello.com/XXXXXXXX
+Exercise 1 includes:
+- QA planning and exploratory testing
+- Functional test cases
+- Bug reporting and evidence
+- Automation artifacts
 
+> See `excercise1/README.md` for full details.
 
----
+## Exercise 2
 
-# Author
+Exercise 2 focuses on:
+- Testing the SauceDemo web application
+- Authentication, inventory, cart, and checkout flows
+- Playwright TypeScript automation using Page Object Model
+- Test evidence and results
 
-QA Automation Challenge
+> See `excercise2/README.md` for full details.
 
-Exercise 2
+## How to run tests
 
-Developed using Playwright and TypeScript.
+From the root repository, navigate into the exercise folder and install dependencies:
+
+```bash
+cd excercise2
+npm install
+npx playwright test
+```
+
+If `excercise1` also contains automated tests, follow the same pattern inside `excercise1`.
+
+## Notes
+
+- This repository is intended to showcase both manual QA and automation efforts.
+- Each exercise folder contains its own README and implementation details.
