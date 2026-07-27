@@ -1,4 +1,4 @@
-import { Locator, Page } from '@playwright/test';
+import type { Locator, Page } from 'playwright';
 
 export class LoginPage {
 
@@ -38,7 +38,7 @@ export class LoginPage {
 
 
 
-    async getErrorMessage(expectedMessage: string) {
+    async getErrorMessage() {
 
         return this.errorMessage;
 
