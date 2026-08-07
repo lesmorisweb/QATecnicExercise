@@ -22,3 +22,8 @@ export const ERROR_MESSAGES = {
         "Epic sadface: You can only access '/inventory.html' when you are logged in"
 
 };
+
+export const INVALID_USERNAME = ERROR_MESSAGES.INVALID_CREDENTIALS;
+export const INVALID_PASSWORD = ERROR_MESSAGES.INVALID_CREDENTIALS;
+export const LOCKED_USER = ERROR_MESSAGES.LOCKED_USER;
+export const SUCCESS_LOGIN = 'Login successful';

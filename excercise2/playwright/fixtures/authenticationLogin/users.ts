@@ -31,3 +31,9 @@ export const USERS = {
     }
 
 };
+
+export const STANDARD = USERS.STANDARD;
+export const INVALID_USERNAME = USERS.INVALID_USERNAME;
+export const INVALID_PASSWORD = USERS.INVALID_PASSWORD;
+export const LOCKED = USERS.LOCKED;
+export const INVALID = USERS.INVALID_USERNAME;

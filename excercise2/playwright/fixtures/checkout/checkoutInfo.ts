@@ -23,4 +23,10 @@ export const CHECKOUTINFO = {
         LASTNAME: 'Esmoris',
         ZIP: ''
     }
-}
+};
+
+export const checkoutInfo = {
+    firstName: CHECKOUTINFO.FULLINFO.FIRSTNAME,
+    lastName: CHECKOUTINFO.FULLINFO.LASTNAME,
+    postalCode: CHECKOUTINFO.FULLINFO.ZIP
+};
